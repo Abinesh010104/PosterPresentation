@@ -810,6 +810,70 @@ section {
   font-size: 12px;
   transition: 0.4s;
 }
+/* Simple and Clean Design with Hover Transitions for Thrust Areas Section */
+
+#thrust-areas {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.thrust-areas .section-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.thrust-areas .row {
+  display: flex;
+  justify-content: center;
+}
+
+.thrust-areas .col-md-6 {
+  margin-bottom: 30px;
+}
+
+.thrust-areas .icon-box {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.thrust-areas .icon-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.thrust-areas .icon {
+  font-size: 48px;
+  color: #3498db;
+  transition: color 0.3s ease-in-out;
+}
+
+.thrust-areas .icon-box:hover .icon {
+  color: #1e87d0;
+}
+
+.thrust-areas .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
+}
+
+.thrust-areas a {
+  text-decoration: none;
+  color: #3498db;
+  transition: color 0.3s ease-in-out;
+}
+
+.thrust-areas a:hover {
+  color: #1e87d0;
+}
 
 .more-services .read-more a:hover {
   text-decoration: underline;
